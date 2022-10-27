@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:wght@200&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 5px; /* ширина для вертикального скролла */
+    background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #FFFFFF 0%, #1E1E1E 100%);
+    border-radius: 2em;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 275;
+    line-height: 31px;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 10vw;
+}
+
+a {
+    font: inherit;
+    text-decoration: none;
+    background: linear-gradient(180deg, #FFFFFF 0%, #1E1E1E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+header {
+    padding: 1% 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+li {
+    width: fit-content;
+}
+
+
+.logo {
+    max-width: 106px;
+    width: 10%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+h1,h2 {
+    font: inherit;
+    margin: 0;
+
+}
+
+
+h1 {
+    line-height: 125px;
+    padding-left: 1.5em;
+    letter-spacing: 1.5em;
+    text-align: center;
+    font-size: 96px;
+    background: radial-gradient(117.12% 117.12% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.car {
+    width: 70%;
+    align-self: center;
+    margin-bottom: 2%;
+}
+
+h2 {
+    line-height: 50px;
+    letter-spacing: 0.8em;
+    text-align: center;
+    font-size: 36px;
+    background: linear-gradient(180deg, #FFFFFF -29.61%, rgba(115, 111, 111, 0) 135.71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.cars {
+    padding: 0 5vw;
+}
+
+.cars__title {
+    margin-bottom: 5%;
+}
+
+.cars__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.cars__card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cars__img {
+    display: block;
+}
+
+.cars__block {
+    border-radius: 20px ;
+}
+
+.cars__text {
+    width: 40%;
+}
+
+.python {
+    padding: 0 5vw;
+}
+
+.python__title {
+    margin-bottom: 3%;
+}
+
+.python__subtitle {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.python__div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.python__frame {
+    border-radius: 20px;
+    height: 450px;
+    background: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+} 
+
+.link {
+    background: url('vk.svg') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 40px;
+}
+
+.facebook {
+    background: url('facebook.svg') no-repeat center;
+    background-size: contain;
+}
+
+.inst {
+    background: url('inst.svg') no-repeat center;
+    background-size: contain;
+}
+
+.link a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
